@@ -12,12 +12,19 @@ The program will execute the first command using the input file as stdin, pipe t
 
 ## Available Operations
 Command Description
+
 **pipe** Creates a unidirectional data channel for inter-process communication
+
 **fork** Creates a new child process by duplicating the calling process
+
 **dup2** Duplicates a file descriptor to a specific standard stream
+
 **execve** Replaces the current process image with a new process (runs the command)
+
 **access** Checks the user's permissions for a specific file or path
+
 **waitpid** Suspends execution until a child process has changed state
+
 
 ## Algorithm Choice
 This project was implemented using a multi-process execution model. The decision to use this architecture was based on several factors:
