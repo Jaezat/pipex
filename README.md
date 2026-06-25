@@ -12,9 +12,7 @@ The program will execute the first command using the input file as stdin, pipe t
 
 ## Available Operations
 Command Description
-
-*pipe* Creates a unidirectional data channel for inter-process communication
-
+**pipe** Creates a unidirectional data channel for inter-process communication
 **fork** Creates a new child process by duplicating the calling process
 **dup2** Duplicates a file descriptor to a specific standard stream
 **execve** Replaces the current process image with a new process (runs the command)
